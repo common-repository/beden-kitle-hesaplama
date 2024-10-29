@@ -1,0 +1,53 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+	<title>Beden Kitle Endexi</title>
+	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
+	<link rel="stylesheet" href="style.css" />
+	<link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
+	<script type="text/javascript" src="script.js" language="javascript"></script>
+</head>
+<body>
+	<div id="formgenel">
+		<div class="formici">
+			<div class="fresim">
+				<img src="fitness.png" alt="" />
+			</div>
+			<div class="fbaslik">
+				<h2>Beden Kitle Endeksi Hesaplama</h2>
+			</div>
+			<form name="BedenKitleEndeksi" onreset="bicimTemizle(this)">
+			
+			<div class="formeleman">
+				<center><label class="col1" for="kilosu">Kilonuz(kg)</label></center>
+				<input class="col2" type="text" name="kilosu" id="kilosu" value="Kilonuzu Yazın - Örn: 85" onfocus="fcs(this);" onblur="fcs(this)">
+			</div>
+
+			<div class="formeleman">
+				<center><label class="col1" for="boyu">Boyunuz(cm)</label></center>
+				<input class="col2" type="text" name="boyu" id="boyu" value="Boyunuzu Yazın - Örn: 185" onfocus="fcs(this);" onblur="fcs(this)">
+			</div>
+
+			<div class="formeleman">
+				<input type="button" value="Hesapla" onClick="bkihesap()">
+			</div>
+
+			<div class="formeleman">
+				<center><label class="col1" for="bki">Beden Kitle Endeksiniz</label></center>
+				<input class="col2 eku" type="text" name="bki" id="bki">
+			</div>
+
+			<div class="formeleman">
+				<center><label class="col1" for="vkisonuc">Bu Sonuca Göre</label></center>
+				<input class="col2 eku" type="text" name="vkisonuc" id="vkisonuc">
+			</div>
+
+			<div class="formeleman">
+				<input type="reset" value="Sıfırla" />
+			</div>
+
+			</form><!-- Form Bitiş -->
+		</div><!-- Form İçi Bitiş -->
+	</div><!-- Form Genel Bitiş -->
+</body>
+</html>
